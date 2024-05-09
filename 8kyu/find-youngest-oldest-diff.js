@@ -16,4 +16,12 @@ function differenceInAges(arr) {
   
 }
 
+// SOLUTION :
+// function differenceInAges(ages){
+//   const youngest = Math.min(...ages);
+//   const oldest = Math.max(...ages);
+
+//   return [youngest, oldest, oldest - youngest];
+// }
+
 console.log(differenceInAges(ages))
